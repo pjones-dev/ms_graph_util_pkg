@@ -4,7 +4,9 @@ Package handles Microsoft Graph REST API calls in PL/SQL which can be used to in
 At the moment package handles:
 
 Create Event: https://docs.microsoft.com/en-us/graph/api/user-post-events?view=graph-rest-1.0&tabs=http
+
 Update Event: https://docs.microsoft.com/en-us/graph/api/event-update?view=graph-rest-1.0&tabs=http
+
 Delete Event: https://docs.microsoft.com/en-us/graph/api/event-delete?view=graph-rest-1.0&tabs=http
 
 Handles events in the 'me' calendar and also another user's i.e. shared calendar: populate p_user and p_calendar on the calls
